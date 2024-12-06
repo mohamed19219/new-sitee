@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ex.jpg" type="image/x-icon">
+    <link rel="icon" sizes="32x32" href="ex.jpg">
+    <link rel="icon" sizes="16x16" href="ex.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="signup-container">
+            <div class="signup-logo">
+                <img src="ex.jpg" alt="Logo"> <!-- ضع لوجو هنا -->
+            </div>
+            <form action="#" method="POST" class="signup-form">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                <button type="submit" class="signup-btn">Sign Up</button>
+                <div class="terms">
+                    <p>By signing up, you agree to our <a href="#">Terms & Conditions</a></p>
+                </div>
+                
+            </form>
+            <div class="sign-in">
+                <p>Already have an account? <a href="index.html">Sign In</a></p>
+            </div>
+
+            <!-- شريط التقدم -->
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+
+            <!-- الرسالة الخطأ -->
+            <div class="error-message" id="error-message">
+                <p>Password mismatch. Please try again.</p>
+            </div>
+        </div>
+    </div>
+    <script src="scriptt.js"></script>
+</body>
+</html>
